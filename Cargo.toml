@@ -1,0 +1,15 @@
+[package]
+name = "siru"
+version = "0.1.0"
+authors = ["Lars Wallenborn <lars@wallenborn.net>"]
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bin"
+path = "src/main.rs"
+
+[dependencies]
+
