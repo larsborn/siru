@@ -42,7 +42,6 @@ named!(number<&str, f64>,
     map_res!(
         recognize!(
             tuple!(
-                opt!()
                 digit,
                 opt!(
                     pair!(
